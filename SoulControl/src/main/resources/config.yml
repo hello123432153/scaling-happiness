@@ -1,0 +1,8 @@
+soul:
+  slot: 8
+  material: RED_DYE
+
+control:
+  chat: true
+  movement: true
+  inventory: true

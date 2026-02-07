@@ -1,0 +1,5 @@
+name: SoulControl
+version: 1.0.0
+main: me.yourname.soulcontrol.SoulControl
+api-version: 1.19
+depend: [ProtocolLib]
