@@ -21,10 +21,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      # 3. Download ProtocolLib 5.0.0
+      # 3. Download ProtocolLib 5.4.0
       - name: Download ProtocolLib
         run: |
-          curl -L -o ProtocolLib-5.0.0.jar https://github.com/dmulloy2/ProtocolLib/releases/download/5.0.0/ProtocolLib.jar
+          curl -L -o ProtocolLib-5.4.0.jar https://github.com/dmulloy2/ProtocolLib/releases/download/5.4.0/ProtocolLib.jar
 
       # 4. Install ProtocolLib into local Maven repo
       - name: Install ProtocolLib
